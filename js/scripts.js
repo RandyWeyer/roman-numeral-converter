@@ -90,12 +90,12 @@ $(document).ready(function(event) {
     event.preventDefault();
 
     var userInput = parseInt($("#user-input").val());
-    
+
     output="";
 
     var userResult = romanNumeral(userInput);
 
-    $("#results1").text(userResult);
+    $("#results").text(userResult);
 
   });
 });

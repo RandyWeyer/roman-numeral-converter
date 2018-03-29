@@ -4,19 +4,32 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/loops.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Roman Numerals</title>
   </head>
   <body>
     <div class="container">
       <form id="roman-numeral">
-        <label for="user-input-box">Please write a number less than 4000 and we can convert it to Roman Numerals.</label>
+        <label for="user-input-box">Please write a number less than 4000 and we can convert it to Roman Numerals. This one uses mostly "if" statements.</label>
+        <br>
         <input type="text" name="user-input-box" id="user-input">
         <button type="submit" name="button">Submit</button>
       </form>
 
-      <div id="results1">
+      <div id="results">
         <span class="results"></span>
+      </div>
+
+      <form id="roman-numeral-loop">
+        <label for="user-input-box-loop">Please write a number less than 4000 and we can convert it to Roman Numerals. This one uses mostly for loops.</label>
+        <br>
+        <input type="text" name="user-input-box-loop" id="user-input-loop">
+        <button type="submit" name="button">Submit</button>
+      </form>
+
+      <div id="results-loop">
+        <span class="results-loop"></span>
       </div>
 
     </div>

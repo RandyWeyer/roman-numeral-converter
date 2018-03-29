@@ -15,6 +15,13 @@ _A simple website that takes an integer input and converts it to a Roman Numeral
 * _Right-click on the HTML file "index.html", then open it using a web browser._
 * _Use Firefox or Chrome for best results, though IE shouldn't have any problems._
 
+## Specs
+
+* _Program checks if number is less than 4000, as that is the limit for Roman Numerals._
+* _Function checks if a number is greater than 900, 400, 90, 40, 9, 4_
+* _If the numbers the number starts with a 9 or 4 it will properly append the numeral for that value. _
+* _If the number is over the largest Roman Numeral, it will append the roman numeral and subtract that value._
+
 ## Known Bugs
 
 _No known bugs_
