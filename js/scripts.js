@@ -1,9 +1,11 @@
 var output = "";
 
 var romanNumeral = function(number){
+
   if (number > 3999) {
     return "Funtion is too large for Roman Numerals";
   };
+
   while (number>0) {
   if (number>= 900) {
     if(number<=1000 && number >=900) {
@@ -86,8 +88,9 @@ $(document).ready(function(event) {
 
   $("#roman-numeral").submit(function(event){
     event.preventDefault();
-    var userInput = parseInt($("#user-input").val());
 
+    var userInput = parseInt($("#user-input").val());
+    
     output="";
 
     var userResult = romanNumeral(userInput);
